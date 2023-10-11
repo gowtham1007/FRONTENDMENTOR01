@@ -1,0 +1,544 @@
+body:hover {
+	cursor: pointer; 
+  }
+  
+  .first-box {
+	height: auto;
+	width: 180px;
+	align-items: center;
+	padding: 17px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	margin-right: -32px;
+	z-index: 100;
+	background: linear-gradient(to top, blue, rgb(142, 142, 255));
+  }
+  
+  .first-p {
+	color: lightgray;
+	text-align: center;
+	
+  
+  }
+  
+  .round-div {
+	height: 120px;
+	width: 120px;
+	border: none;
+	border-radius: 75px;
+	background: linear-gradient(rgb(62 62,231), rgb(67,67,180));
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .digit-1 {
+	color: white;
+    font-weight: bold;
+	font-weight: 900;
+	font-size: 50px;
+	margin: 0;
+  }
+  
+  .of-100 {
+   margin: 0;
+   font-weight: bold;
+   font-size: 10;
+   color: rgb(185, 184, 184);
+  }
+  
+  .great {
+	color: white;
+	font-weight: 500;
+    font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 0;
+  }
+  
+  .last-p {
+	width: 180px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 17px;
+	color: rgb(218, 210, 210);
+  }
+  
+  
+  .second-box {
+	background-color: white;   
+	height: auto;
+	width: 190px;
+	display: flex;
+	flex-direction: column;
+	
+	padding: 20px 15px;
+	border-radius: 15px;
+	margin-left: 10px;
+  }
+  
+  .second-box-div {
+  display: flex;
+  flex-direction: column; 
+  }
+  
+  .summary {
+    font-weight: bold;
+	font-weight: 900;
+	padding-top: 0;
+	padding-left: 22px;
+	padding-bottom: 05px;
+	color: rgb(4 4 67);
+  }
+  
+  .div-1 {
+   display: flex;
+   background-color: rgb(239, 216, 220);
+   border-radius: 5px;
+   margin: 0 10px 0 25px;
+   align-items: center;
+   
+  }
+  
+  .icon-reaction {
+    font-weight: bold;
+	font-weight: 100;
+	height: 12px;
+	padding: 8px;
+  }
+  
+  .reaction {
+	color: rgb(183, 35, 35);
+  }
+  .digit-2 {
+	font-weight: 600;
+  }
+  
+  .div-2 {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(236, 232, 233);
+	align-items: center;
+	margin: 8px 10px 8px 25px;
+	border-radius: 5px;
+	
+  }
+  
+  .minor-div {
+	display: flex;
+	width: 250px;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 5px;
+	font-size: 11px;
+  }
+  
+  
+  .icon-memory {
+	height: 12px;
+	padding: 8px;
+  }
+  
+  .memory {
+	color: orange;
+  }
+  
+  .digit-3 {
+	font-weight: 600;
+  
+  }
+  
+  .div-3 {
+	display: flex;
+	background-color: rgb(207, 233, 248);
+	border-radius: 5px;
+	margin: 0 10px 0 25px;
+	align-items: center;
+  }
+  
+  .icon-verbal {
+	height: 12px;
+	padding: 8px;
+  }
+  
+  .verbal {
+	color: green;
+  
+  }
+  
+  .digit-4 {
+	font-weight: 600;
+  
+  }
+  
+  .div-4 {
+	display: flex;
+	background-color: rgb(236, 235, 236); 
+	border-radius: 5px;
+	margin: 8px 10px 0 25px;
+  }
+  
+  .icon-visual {
+	height: 15px;
+	padding: 8px;
+  }
+  
+  .visual {
+	color: rgb(12, 12, 114);
+  }
+  
+  .digit-5 {
+	  font-weight: 600;
+  }
+  
+  .span {
+	color: gray;
+  }
+  
+  .continue-button{
+	padding: 8px;
+	border-radius: 150px;
+	border: none;
+	margin: 16px 16px 16px 22px;
+	color: white;
+	background-color: rgb(50 50 75); 
+  }
+  
+  .continue-button:active {
+	background-color: #4c4cf0; 
+  }
+  .continue-button:hover {
+	cursor: pointer;
+  }
+  
+  
+  @media screen and (min-width:1441px) {
+	.background-box {
+	  display: flex;
+	  flex-direction: column;
+	  height: auto; 
+	  width: 100%;
+	}
+	
+	.first-box {
+	  height: 50vh;
+	  width: 90%;
+	  margin-top: 0;
+	  margin-bottom: -25px;
+	  margin-right: 0;
+	  padding: 16px;
+	  border-radius: 0 0 30px 30px;
+	  display: flex;
+	  z-index: 100;
+	  background: linear-gradient(to top, blue, rgb(142, 142, 255));
+	}
+	
+	.second-box {
+	  background-color: white;   
+	  height: 45vh;
+	  width: 90%;
+	  border: none;
+	  border-radius: 0;
+	  margin: 0;
+	  margin-bottom: 0;
+	  display: flex;
+	  
+	}
+	
+	.continue-button{
+	  padding: 8px;
+	  font-size: 20px;
+	  border-radius: 150px;
+	  border: none;
+	  margin-bottom: 0;
+	  color: white;
+	  background-color: rgb(33, 33, 102); 
+	}
+  
+	body {
+	  margin: 0;
+	}
+	body:active {
+	  color: none;
+	}
+  }
+  body:hover {
+	cursor: pointer;
+  }
+  .background-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	max-width: 100%;
+	background-color: rgb(240, 233, 233);
+  }
+  
+  .first-box {
+	height: auto;
+	width: 180px;
+	align-items: center;
+	padding: 17px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	margin-right: -32px;
+	z-index: 100;
+	background: linear-gradient(to top, blue, rgb(142, 142, 255));
+  }
+  
+  .first-p {
+	color: lightgray;
+	text-align: center;
+	
+  
+  }
+  
+  .round-div {
+	height: 120px;
+	width: 120px;
+	border: none;
+	border-radius: 75px;
+	background: linear-gradient(rgb(62 62,231), rgb(67,67,180));
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .digit-1 {
+	color: white;
+    font-weight: bold;
+	font-weight: 900;
+	font-size: 50px;
+	margin: 0;
+  }
+  
+  .of-100 {
+   margin: 0;
+   font-weight: bold;
+   font-size: 10;
+   color: rgb(185, 184, 184);
+  }
+  
+  .great {
+	color: white;
+	font-weight: 500;
+    font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 0;
+  }
+  
+  .last-p {
+	width: 180px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 17px;
+	color: rgb(218, 210, 210);
+  }
+  
+  
+  .second-box {
+	background-color: white;   
+	height: auto;
+	width: 190px;
+	display: flex;
+	flex-direction: column;
+	box-shadow:10px 10px #e7e7e7;
+	padding: 20px 15px;
+	border-radius: 15px;
+	margin-left: 10px;
+  }
+  
+  .second-box-div {
+  display: flex;
+  flex-direction: column; 
+  }
+  
+  .summary {
+    font-weight: bold;
+	font-weight: 900;
+	padding-top: 0;
+	padding-left: 22px;
+	padding-bottom: 05px;
+	color: rgb(4 4 67);
+  }
+  
+  .div-1 {
+   display: flex;
+   background-color: rgb(239, 216, 220);
+   border-radius: 5px;
+   margin: 0 10px 0 25px;
+   align-items: center;
+   
+  }
+  
+  .icon-reaction {
+    font-weight: bold;
+	font-weight: 100;
+	height: 12px;
+	padding: 8px;
+  }
+  
+  .reaction {
+	color: rgb(183, 35, 35);
+  }
+  .digit-2 {
+	font-weight: 600;
+  }
+  
+  .div-2 {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(236, 232, 233);
+	align-items: center;
+	margin: 8px 10px 8px 25px;
+	border-radius: 5px;
+	
+  }
+  
+  .minor-div {
+	display: flex;
+	width: 250px;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 5px;
+	font-size: 11px;
+  }
+  
+  
+  .icon-memory {
+	height: 12px;
+	padding: 8px;
+  }
+  
+  .memory {
+	color: orange;
+  }
+  
+  .digit-3 {
+	font-weight: 600;
+  
+  }
+  
+  .div-3 {
+	display: flex;
+	background-color: rgb(207, 233, 248);
+	border-radius: 5px;
+	margin: 0 10px 0 25px;
+	align-items: center;
+  }
+  
+  .icon-verbal {
+	height: 12px;
+	padding: 8px;
+  }
+  
+  .verbal {
+	color: green;
+  
+  }
+  
+  .digit-4 {
+	font-weight: 600;
+  
+  }
+  
+  .div-4 {
+	display: flex;
+	background-color: rgb(236, 235, 236); 
+	border-radius: 5px;
+	margin: 8px 10px 0 25px;
+  }
+  
+  .icon-visual {
+	height: 15px;
+	padding: 8px;
+  }
+  
+  .visual {
+	color: rgb(12, 12, 114);
+  }
+  
+  .digit-5 {
+	  font-weight: 600;
+  }
+  
+  .span {
+	color: gray;
+  }
+  
+  .continue-button{
+	padding: 8px;
+	border-radius: 150px;
+	border: none;
+	margin: 16px 16px 16px 22px;
+	color: white;
+	background-color: rgb(50 50 75); 
+  }
+  
+  .continue-button:active {
+	background-color: #4c4cf0; 
+  }
+  .continue-button:hover {
+	cursor: pointer;
+  }
+  
+  
+  @media screen and (max-width:481px) {
+	.background-box {
+	  display: flex;
+	  flex-direction: column;
+	  height: auto;
+	  width: 100%;
+	}
+	
+	.first-box {
+	  height: 50vh;
+	  width: 90%;
+	  margin-top: 0;
+	  margin-bottom: -25px;
+	  margin-right: 0;
+	  padding: 16px;
+	  border-radius: 0 0 30px 30px;
+	  display: flex;
+	  z-index: 100;
+	  background: linear-gradient(to top, blue, rgb(142, 142, 255));
+	}
+	
+	.second-box {
+	  background-color: white;   
+	  height: 45vh;
+	  width: 90%;
+	  border: none;
+	  border-radius: 0;
+	  margin: 0;
+	  margin-bottom: 0;
+	  display: flex;
+	  
+	}
+	
+	.continue-button{
+	  padding: 8px;
+	  font-size: 20px;
+	  border-radius: 150px;
+	  border: none;
+	  margin-bottom: 0;
+	  color: white;
+	  background-color: rgb(33, 33, 102); 
+	}
+  
+	body {
+	  margin: 0;
+	}
+	body:active {
+	  color: none;
+	}
+  }
+  
+
+
